@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap');
+
+/* body, html {
+    margin: 0;
+} */
+.nav {
+    background-color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    font-size: 20px;
+    height: 60px;
+    align-items: center;
+    width: 100%;
+    /* grid-template-columns: repeat(5, 1fr); */
+
+}
+.nav-link {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav .nav-link:hover {
+    font-size: 40px;
+
+}
+
+.nav-btn {
+    background-color: yellow;
+    border: 2px solid red;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-btn:hover {
+    box-shadow: 5px 5px 2px gray;
+}
+
+h1 {
+    font-family: 'Baloo Da 2', cursive;
+    font-size: 60px;
+    font-weight: bolder;
+    /* background-color: aquamarine; */
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    color: rgba(150, 150, 150, 0.6);
+    background: linear-gradient(#e66465, #9198e5);
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    text-decoration:underline;
+    /* background-color: aquamarine; */
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    color: rgb(42, 62, 218);
+    background:#eff6ff ;
+}
+
+h3 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration:wavy underline red;
+
+    /* background-color: aquamarine; */
+    text-align: start;
+    color: #0f172a;
+    background:#dbeafe ;
+}
+
+h4 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration:wavy underline red;
+
+    /* background-color: aquamarine; */
+    text-align: center;
+    color: #0f172a;
+    background:#dbeafe ;
+}
+
+h4::before {
+    content: "😊😊";
+}
+
+body > h5 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration:wavy underline rgb(28, 8, 67);
+
+    /* background-color: aquamarine; */
+    text-align: center;
+    color: #1e3a8a;
+    background:#bfdbfe ;
+}
+
+h6 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration:dashed underline rgb(22, 89, 165);
+
+    /* background-color: aquamarine; */
+    text-align: center;
+    color: #1e40af;
+    background:#f1f5f9 ;
+}
+
+body > p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    text-align: left;
+    width: 50%;
+    background-color: #dbeafe;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+button[type="button"] {
+    background-color: #7e8492;
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 30px;
+    margin: 0 50px;
+
+}
+
+body > a {
+
+    background-color: #7c8397;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 10px 220px;
+    margin: 10px 50px;
+}
+
+body > button[type="submit"] {
+    background-color: #9198e5;
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 30px;
+    margin: 10px 50px;
+
+}
+
+input[type="button"] {
+    background-color: #e66465;
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 30px;
+    margin: 10px 50px;
+}
+
+input[type="submit"] {
+    background-color: #e66465;
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 30px;
+    margin: 10px 50px;
+}
+input[type="reset"] {
+    background-color: #e66465;
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 30px;
+    margin: 10px 50px;
+}
+
+.card {
+    background-color: #bac2dc;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    /* padding: 10px; */
+    /* margin: 100px; */
+}
+
+.card-title {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration:wavy underline rgb(28, 8, 67);
+
+    /* background-color: aquamarine; */
+    text-align: center;
+    color: #1e3a8a;
+    background:#bfdbfe ;
+}
